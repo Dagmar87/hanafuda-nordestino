@@ -1,0 +1,38 @@
+{
+  "name": "hanafuda-nordestino",
+  "version": "1.0.0",
+  "description": "O projeto de um jogo inspirado na estrutura do Hanafuda, mas com identidade nordestina.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagmar87/hanafuda-nordestino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dagmar87/hanafuda-nordestino/issues"
+  },
+  "homepage": "https://github.com/Dagmar87/hanafuda-nordestino#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.10.0",
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "prisma": "^7.10.0",
+    "zod": "^4.6.5"
+  }
+}
